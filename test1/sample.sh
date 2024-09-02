@@ -13,7 +13,7 @@ echo "Starting httpd service..."
 sudo systemctl start httpd
 
 # Enable httpd service to start on boot
-echo "Enabling httpd to start on boot..."
+
 sudo systemctl enable httpd
 
 # Check the status of httpd service
